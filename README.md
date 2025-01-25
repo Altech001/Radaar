@@ -1,229 +1,173 @@
-# **Radaar - Tech Company Website**
+# Radaar - Tech Company Website
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 
 Welcome to the **Radaar** repository! This project is a **modern, responsive website** designed for a tech company, highlighting its services, team, projects, and more. Built with a cutting-edge tech stack, this project ensures a seamless, high-performing user experience.
 
----
+## Table of Contents
 
-## 🚀 **Features**
+1. [Features](#features)
+2. [Directory Structure](#directory-structure)
+3. [Prerequisites](#prerequisites)
+4. [Installation](#installation)
+5. [Scripts](#scripts)
+6. [Contributing](#contributing)
+7. [Support](#support)
+8. [License](#license)
+9. [Acknowledgments](#acknowledgments)
 
-- **Responsive Design**: Built with Tailwind CSS to ensure a mobile-first, fully responsive experience.  
-- **Modern UI Components**: Reusable and customizable components for consistency and flexibility.  
-- **TypeScript Integration**: Ensures type safety and enhances developer productivity.  
-- **Powered by Vite**: Lightning-fast development and build process.  
-- **Utility-First Styling**: Developed with Tailwind CSS for rapid and scalable UI design.  
-- **Code Quality Tools**: Includes ESLint and Prettier for clean, maintainable code.  
-- **Custom Hooks**: Implements reusable hooks for common functionality.  
-- **Interactive Particle Effects**: Adds dynamic, engaging background effects.  
+## 🚀Features
 
----
+- **Responsive Design:** Mobile-first design using Tailwind CSS.
+- **Reusable UI Components:** Consistent and flexible modern components.
+- **TypeScript Integration:** For type safety and improved productivity.
+- **Powered by Vite:** Lightning-fast development and build process.
+- **Custom Hooks:** Implements reusable hooks for common functionalities.
+- **Interactive Background Effects:** Dynamic and engaging particle effects.
+- **Code Quality Tools:** Includes ESLint and Prettier.
 
-## 📂 **Directory Structure**
+## 📂Directory Structure
 
 ```
 altech001-radaar/
-├── README.md
-├── bun.lockb
-├── components.json
-├── eslint.config.js
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.ts
-├── tsconfig.app.json
-├── tsconfig.json
-├── tsconfig.node.json
-├── vite.config.ts
-├── public/
-└── src/
-    ├── App.css
-    ├── App.tsx
-    ├── index.css
-    ├── main.tsx
-    ├── vite-env.d.ts
-    ├── components/
-    │   ├── AboutUs.tsx
-    │   ├── Contact.tsx
-    │   ├── Features.tsx
-    │   ├── Footer.tsx
-    │   ├── Hero.tsx
-    │   ├── Leaderboard.tsx
-    │   ├── Navbar.tsx
-    │   ├── Projects.tsx
-    │   ├── Team.tsx
-    │   ├── Testimonials.tsx
-    │   └── ui/
-    │       ├── accordion.tsx
-    │       ├── alert-dialog.tsx
-    │       ├── alert.tsx
-    │       ├── aspect-ratio.tsx
-    │       ├── avatar.tsx
-    │       ├── badge.tsx
-    │       ├── breadcrumb.tsx
-    │       ├── button.tsx
-    │       ├── calendar.tsx
-    │       ├── card.tsx
-    │       ├── carousel.tsx
-    │       ├── chart.tsx
-    │       ├── checkbox.tsx
-    │       ├── collapsible.tsx
-    │       ├── command.tsx
-    │       ├── context-menu.tsx
-    │       ├── dialog.tsx
-    │       ├── drawer.tsx
-    │       ├── dropdown-menu.tsx
-    │       ├── form.tsx
-    │       ├── hover-card.tsx
-    │       ├── input-otp.tsx
-    │       ├── input.tsx
-    │       ├── label.tsx
-    │       ├── menubar.tsx
-    │       ├── navigation-menu.tsx
-    │       ├── pagination.tsx
-    │       ├── popover.tsx
-    │       ├── progress.tsx
-    │       ├── radio-group.tsx
-    │       ├── resizable.tsx
-    │       ├── scroll-area.tsx
-    │       ├── select.tsx
-    │       ├── separator.tsx
-    │       ├── sheet.tsx
-    │       ├── sidebar.tsx
-    │       ├── skeleton.tsx
-    │       ├── slider.tsx
-    │       ├── sonner.tsx
-    │       ├── switch.tsx
-    │       ├── table.tsx
-    │       ├── tabs.tsx
-    │       ├── textarea.tsx
-    │       ├── toast.tsx
-    │       ├── toaster.tsx
-    │       ├── toggle-group.tsx
-    │       ├── toggle.tsx
-    │       ├── tooltip.tsx
-    │       └── use-toast.ts
-    ├── hooks/
-    │   ├── use-mobile.tsx
-    │   └── use-toast.ts
-    ├── lib/
-    │   └── utils.ts
-    ├── pages/
-    │   └── Index.tsx
-    └── types/
-        └── particles.d.ts
+├── README.md                          # Project documentation.
+├── bun.lockb                          # Dependency lock file for Bun.
+├── components.json                    # Component metadata for consistency.
+├── eslint.config.js                   # ESLint configuration file.
+├── index.html                         # Entry HTML file for the application.
+├── package.json                       # Node.js metadata and scripts.
+├── postcss.config.js                  # PostCSS configuration for CSS processing.
+├── tailwind.config.ts                 # Tailwind CSS configuration file.
+├── tsconfig.app.json                  # TypeScript configuration for the app.
+├── tsconfig.json                      # Main TypeScript configuration.
+├── tsconfig.node.json                 # TypeScript config for Node.js-specific files.
+├── vite.config.ts                     # Vite configuration file.
+├── public/                            # Public assets served as-is.
+│   └── favicon.ico                    # Website favicon.
+├── src/                               # Source code for the project.
+    ├── App.css                        # Global styles for the application.
+    ├── App.tsx                        # Main application component.
+    ├── index.css                      # Tailwind and custom CSS imports.
+    ├── main.tsx                       # Application entry point.
+    ├── vite-env.d.ts                  # Vite environment declarations.
+    ├── components/                    # UI components for the application.
+    │   ├── AboutUs.tsx                # About Us section component.
+    │   ├── Contact.tsx                # Contact form and details.
+    │   ├── Features.tsx               # Features overview component.
+    │   ├── Footer.tsx                 # Footer section.
+    │   ├── Hero.tsx                   # Hero/landing section.
+    │   ├── Leaderboard.tsx            # Leaderboard display component.
+    │   ├── Navbar.tsx                 # Navigation bar.
+    │   ├── Projects.tsx               # Project showcase component.
+    │   ├── Team.tsx                   # Team members section.
+    │   ├── Testimonials.tsx           # Client testimonials section.
+    │   └── ui/                        # Reusable UI components.
+    │       ├── button.tsx             # Custom button component.
+    │       ├── card.tsx               # Card UI component.
+    │       ├── input.tsx              # Input field component.
+    │       ├── toast.tsx              # Toast notifications component.
+    │       └── ...                    # Other reusable UI components.
+    ├── hooks/                         # Custom hooks.
+    │   ├── use-mobile.tsx             # Hook to detect mobile devices.
+    │   └── use-toast.ts               # Hook for toast notifications.
+    ├── lib/                           # Utility functions.
+    │   └── utils.ts                   # Common utility functions.
+    ├── pages/                         # Page-level components.
+    │   └── Index.tsx                  # Main landing page.
+    └── types/                         # TypeScript type definitions.
+        └── particles.d.ts             # Types for particle effects.
 ```
 
----
+## 📋Prerequisites
 
-## 🛠️ **Setup Instructions**
+- [Node.js](https://nodejs.org/) (v18 or higher)  
+- [Bun](https://bun.sh/) (optional, for faster package management)  
+- [Git](https://git-scm.com/)
 
-### **Prerequisites**
+## 💾Installation
 
-- Node.js (v18 or higher)  
-- Bun (optional, for faster package management)  
-- Git
-
-### **Installation**
-
-1. Clone the repository:
-
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/altech001-radaar.git
-   cd altech001-radaar
+   git clone https://github.com/Altech001/Radaar.git
+   cd Radaar/
    ```
 
-2. Install dependencies:
-
+2. **Install dependencies:**
    Using **Bun**:
-
    ```bash
    bun install
    ```
 
    Using **npm**:
-
    ```bash
    npm install
    ```
 
-3. Start the development server:
-
+3. **Start the development server:**
    Using **Bun**:
-
    ```bash
    bun dev
    ```
-
-   Or using **npm**:
-
+   Using **npm**:
    ```bash
    npm run dev
    ```
 
-4. Open the project in your browser:
-
+4. **Open the project in your browser:**
    Navigate to `http://localhost:5173`.
 
----
 
-## 🧰 **Tools & Technologies**
+## 📜Scripts
 
-- **Frontend Framework**: React (TypeScript)  
-- **Build Tool**: Vite  
-- **Styling**: Tailwind CSS  
-- **State Management**: React hooks  
-- **Linting**: ESLint  
-- **Type Checking**: TypeScript  
-- **UI Components**: Custom reusable components  
+- **dev**: Start the development server.
+- **build**: Build the project for production.
+- **preview**: Preview the production build locally.
+- **lint**: Run ESLint for code linting.
 
----
-
-## 📜 **Scripts**
-
-- `dev`: Start the development server.  
-- `build`: Build the project for production.  
-- `lint`: Run ESLint to check for code issues.  
-- `preview`: Preview the production build locally.  
-
----
-
-## 🤝 **Contributing**
+## 🤝Contributing
 
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch:
 
+2. **Create a new branch**:
    ```bash
    git checkout -b feature/YourFeatureName
    ```
 
-3. Commit your changes:
-
+3. **Commit your changes**:
    ```bash
    git commit -m 'Add some feature'
    ```
 
-4. Push to the branch:
-
+4. **Push to the branch**:
    ```bash
    git push origin feature/YourFeatureName
    ```
 
 5. Open a pull request.
 
----
+## 🆘Support
 
-## 📄 **License**
+- Found a bug? Let us know [here](https://github.com/Altech001/Radaar/issues)
 
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+## 📄License
 
----
+This project is licensed under the **MIT License**. See the [LICENSE]() file for details.
 
-## 🙏 **Acknowledgments**
+## 🙏Acknowledgments
 
-- **Vite** for the blazing-fast build tool.  
-- **Tailwind CSS** for the utility-first CSS framework.  
-- **React** for the component-based architecture.  
+- **Vite**: for the blazing-fast build tool.  
+- **Tailwind CSS**: for the utility-first CSS framework.  
+- **React**: for the component-based architecture.  
 - **TypeScript** for type safety.  
 
-Made with ❤️ by **[CodeWithAltech/Azuum Baker]** for **Radaar**.
+Made with ❤️ by **CodeWithAltech/Azuum Baker** for **Radaar**.
+
+[Back to Top](#radaar---tech-company-website)
