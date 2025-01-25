@@ -120,7 +120,7 @@ const Hero = () => {
                   </AlertDialogContent>
                 </AlertDialog>
                 <Button variant="outline" size="lg" className="border-primary/20 bg-transparent text-white hover:bg-primary/10">
-                  View Projects
+                  Talk to Us 
                 </Button>
               </div>
             </div>
