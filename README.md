@@ -125,10 +125,10 @@ altech001-radaar/
 
 ## 📜Scripts
 
-- **dev**: Start the development server.
-- **build**: Build the project for production.
-- **preview**: Preview the production build locally.
-- **lint**: Run ESLint for code linting.
+- `dev`: Start the development server.
+- `build`: Build the project for production.
+- `preview`: Preview the production build locally.
+- `lint`: Run ESLint for code linting.
 
 ## 🤝Contributing
 
@@ -163,10 +163,10 @@ This project is licensed under the **MIT License**. See the [LICENSE]() file for
 
 ## 🙏Acknowledgments
 
-- **Vite**: for the blazing-fast build tool.  
-- **Tailwind CSS**: for the utility-first CSS framework.  
-- **React**: for the component-based architecture.  
-- **TypeScript** for type safety.  
+- [Vite](https://vitejs.dev/): for the blazing-fast build tool.  
+- [Tailwind CSS](https://tailwindcss.com/): for the utility-first CSS framework.  
+- [React](https://reactjs.org/): for the component-based architecture.  
+- [TypeScript](https://www.typescriptlang.org/): for type safety.  
 
 Made with ❤️ by **CodeWithAltech/Azuum Baker** for **Radaar**.
 
