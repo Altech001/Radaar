@@ -49,39 +49,12 @@ altech001-radaar/
 ├── tsconfig.node.json                 # TypeScript config for Node.js-specific files.
 ├── vite.config.ts                     # Vite configuration file.
 ├── public/                            # Public assets served as-is.
-│   └── favicon.ico                    # Website favicon.
 ├── src/                               # Source code for the project.
-    ├── App.css                        # Global styles for the application.
-    ├── App.tsx                        # Main application component.
-    ├── index.css                      # Tailwind and custom CSS imports.
-    ├── main.tsx                       # Application entry point.
-    ├── vite-env.d.ts                  # Vite environment declarations.
     ├── components/                    # UI components for the application.
-    │   ├── AboutUs.tsx                # About Us section component.
-    │   ├── Contact.tsx                # Contact form and details.
-    │   ├── Features.tsx               # Features overview component.
-    │   ├── Footer.tsx                 # Footer section.
-    │   ├── Hero.tsx                   # Hero/landing section.
-    │   ├── Leaderboard.tsx            # Leaderboard display component.
-    │   ├── Navbar.tsx                 # Navigation bar.
-    │   ├── Projects.tsx               # Project showcase component.
-    │   ├── Team.tsx                   # Team members section.
-    │   ├── Testimonials.tsx           # Client testimonials section.
-    │   └── ui/                        # Reusable UI components.
-    │       ├── button.tsx             # Custom button component.
-    │       ├── card.tsx               # Card UI component.
-    │       ├── input.tsx              # Input field component.
-    │       ├── toast.tsx              # Toast notifications component.
-    │       └── ...                    # Other reusable UI components.
     ├── hooks/                         # Custom hooks.
-    │   ├── use-mobile.tsx             # Hook to detect mobile devices.
-    │   └── use-toast.ts               # Hook for toast notifications.
     ├── lib/                           # Utility functions.
-    │   └── utils.ts                   # Common utility functions.
     ├── pages/                         # Page-level components.
-    │   └── Index.tsx                  # Main landing page.
     └── types/                         # TypeScript type definitions.
-        └── particles.d.ts             # Types for particle effects.
 ```
 
 ## 📋Prerequisites
@@ -120,7 +93,7 @@ altech001-radaar/
    ```
 
 4. **Open the project in your browser:**
-   Navigate to `http://localhost:5173`.
+   Navigate to `http://localhost:8080`.
 
 
 ## 📜Scripts
